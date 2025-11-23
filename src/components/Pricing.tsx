@@ -4,9 +4,8 @@ export default function Pricing() {
   const plans = [
     {
       name: 'Basic',
-      price: 'Rp 5.000.000',
+      price: 'Rp 500.000',
       period: 'per tahun',
-      monthlyEquiv: '~Rp 416.667/bulan',
       description: 'Cocok untuk pemula yang ingin mulai belajar trading',
       features: [
         'Akses materi pembelajaran basic',
@@ -17,13 +16,12 @@ export default function Pricing() {
       ],
       color: 'from-slate-500 to-slate-600',
       popular: false,
-      discordLink: '#',
+      discordLink: 'https://discord.gg/hT7kRWHtQM',
     },
     {
       name: 'Premium',
-      price: 'Rp 15.000.000',
+      price: 'Rp 1.500.000',
       period: 'per tahun',
-      monthlyEquiv: '~Rp 1.250.000/bulan',
       description: 'Untuk trader serius yang ingin profit konsisten',
       features: [
         'Semua benefit Basic plan',
@@ -37,13 +35,12 @@ export default function Pricing() {
       ],
       color: 'from-amber-500 to-orange-600',
       popular: true,
-      discordLink: 'https://discord.gg/pikacuan-premium',
+      discordLink: 'https://discord.gg/hT7kRWHtQM',
     },
     {
       name: 'VIP',
-      price: 'Rp 30.000.000',
+      price: 'Rp 3.000.000',
       period: 'per tahun',
-      monthlyEquiv: '~Rp 2.500.000/bulan',
       description: 'Mentoring intensif untuk hasil maksimal',
       features: [
         'Semua benefit Premium plan',
@@ -58,7 +55,7 @@ export default function Pricing() {
       ],
       color: 'from-orange-600 to-red-600',
       popular: false,
-      discordLink: 'https://discord.gg/pikacuan-vip',
+      discordLink: 'https://discord.gg/hT7kRWHtQM',
     },
   ];
 
@@ -108,7 +105,6 @@ export default function Pricing() {
                     <span className="text-3xl md:text-4xl font-bold text-slate-900">{plan.price}</span>
                   </div>
                   <span className="text-slate-600 block mb-1 md:mb-2 text-sm md:text-base">{plan.period}</span>
-                  <span className="text-xs md:text-sm text-slate-500">{plan.monthlyEquiv}</span>
                 </div>
 
                 <a
@@ -141,10 +137,10 @@ export default function Pricing() {
           <div className="inline-block bg-green-50 border-2 border-green-200 rounded-2xl p-4 md:p-6 max-w-2xl">
             <div className="flex items-center justify-center space-x-2 md:space-x-3 mb-2 md:mb-3">
               <Shield className="w-5 md:w-6 h-5 md:h-6 text-green-600" />
-              <span className="text-base md:text-lg font-bold text-green-900">Jaminan 100% Uang Kembali</span>
+              <span className="text-base md:text-lg font-bold text-green-900">...</span>
             </div>
             <p className="text-sm md:text-base text-slate-700">
-              Tidak puas dengan layanan kami dalam 7 hari pertama? Kami kembalikan uang Anda 100%
+              ...
             </p>
           </div>
         </div>

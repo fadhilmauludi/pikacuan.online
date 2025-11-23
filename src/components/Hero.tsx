@@ -58,7 +58,7 @@ export default function Hero() {
               <img
                 src="/Pikacuan.png"
                 alt="Pikacuan Logo"
-                className="w-full max-w-xs md:max-w-md mx-auto drop-shadow-2xl"
+                className="w-full max-w-xs md:max-w-md mx-auto drop-shadow-2xl rounded-full"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-br from-amber-200 to-orange-200 rounded-full blur-3xl opacity-30 animate-pulse"></div>
