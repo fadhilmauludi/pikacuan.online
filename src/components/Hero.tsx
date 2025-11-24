@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/Pikacuan.png"
+                src="./Pikacuan.png"
                 alt="Pikacuan Logo"
                 className="w-full max-w-xs md:max-w-md mx-auto drop-shadow-2xl rounded-full"
               />
