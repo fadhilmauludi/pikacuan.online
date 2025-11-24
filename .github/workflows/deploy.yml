@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+CNAME record:
+host: www
+value: fadhilmauludi.github.io
+
 permissions:
   contents: read
   pages: write
